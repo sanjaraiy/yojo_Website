@@ -20,14 +20,14 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/" className="hover:underline">
+                                    <NavLink to="/" className={({isActive})=>`${isActive ? "text-orange-700" : "text-gray-500"}`}>
                                         Home
-                                    </Link>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link to="/about" className="hover:underline">
+                                    <NavLink to="/about" className={({isActive})=>`${ isActive ? "text-orange-700" : "text-gray-500"}`}>
                                         About
-                                    </Link>
+                                    </NavLink>
                                 </li>
                             </ul>
                         </div>
@@ -35,14 +35,14 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Follow us</h2>
                             <ul className="text-gray-500 font-medium">
                                 <li className="mb-4">
-                                    <a
+                                    <NavLink
                                         href="https://github.com/sanjaraiy"
                                         className="hover:underline"
                                         target="_blank"
                                         rel="noreferrer"
-                                    >
+                                        >
                                         Github
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
                                     <Link to="/" className="hover:underline">
