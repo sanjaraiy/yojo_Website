@@ -46,5 +46,5 @@ npm i react-router
 
 ## Contact us :-
 - Email - [deeprai786756@gmail.com](deeprai786756@gmail.com)
-- ![Alt text](image.png) Twitter - [Follow Us](https://x.com/Rajende17438932?t=rYhBK4BsO5pZo54UL7785A&s=09)
-- ![Alt text](image-1.png) LinkedIn - [Follow Us](https://www.linkedin.com/in/sanjay-rai-1491b4228/)
+- Twitter - [Follow Us](https://x.com/Rajende17438932?t=rYhBK4BsO5pZo54UL7785A&s=09)
+- LinkedIn - [Follow Us](https://www.linkedin.com/in/sanjay-rai-1491b4228/)
